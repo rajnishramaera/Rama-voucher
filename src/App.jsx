@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 const App = () => {
-  const [digit, setDigit] = useState(1000)
+  const [digit, setDigit] = useState(100000)
   const [words, setWords] = useState("ONE THOUSAND")
   const commafy = (num) => {
     if (num === 1000) {
@@ -65,7 +65,7 @@ const App = () => {
             width: "200px",
             transform: "scale(80%)",
           }}
-          src="./src/assets/stamp.png"
+          src="./src/assets/stamp1.png"
           alt=""
         />
         <span
